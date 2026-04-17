@@ -2,7 +2,7 @@
 
 Plots AI models on two axes — Epoch Capabilities Index (ECI) vs price per token (log) — and highlights the Pareto frontier. Data pulled daily from Epoch AI and Artificial Analysis.
 
-**Live site:** http://chojeq.com/capabilities-token-pricing-pareto-frontier/ (auto-deployed from `docs/` by the daily Action).
+**Live site:** https://chojeq.com/capabilities-token-pricing-pareto-frontier/ (auto-deployed from `docs/` by the daily Action).
 
 ## What's here
 
