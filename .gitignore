@@ -209,7 +209,8 @@ __marimo__/
 # Project-specific
 logs/*.log
 .DS_Store
-# Cached upstream CSVs; regenerated on every run.
+# Cached upstream data; regenerated on every run.
 outputs/eci_benchmarks.csv
 outputs/all_ai_models.csv
+outputs/aa_pricing.json
 .last_log_path

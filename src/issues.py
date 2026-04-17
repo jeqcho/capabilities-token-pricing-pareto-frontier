@@ -72,7 +72,8 @@ def resolve_existing() -> None:
         print("No open missing-pricing issues.")
         return
 
-    price_df = fetch_aa_pricing()
+    # Reuse the AA response cached by build_data.py to avoid a second API call.
+    price_df = fetch_aa_pricing(use_cache=True)
     price_df["normalized"] = price_df["name"].apply(normalize_name)
     priced = set(price_df.loc[price_df["price_blended"].notna(), "normalized"])
 

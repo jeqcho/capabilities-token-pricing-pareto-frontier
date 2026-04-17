@@ -33,20 +33,23 @@ jobs:
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v3
-        with:
-          python-version: "3.11"
 
       - name: Install dependencies
+        # uv resolves the Python version from pyproject.toml's requires-python.
         run: uv sync
 
-      - name: Resolve existing missing-pricing issues
-        # Runs first so newly-available prices close stale issues before the build.
-        continue-on-error: true
-        run: uv run python src/issues.py resolve-existing
-
       - name: Build dataset
+        # Hits the Artificial Analysis API once and caches the response to
+        # outputs/aa_pricing.json so the issue-management steps don't re-fetch.
         id: pipeline
         run: uv run python src/build_data.py
+
+      - name: Resolve existing missing-pricing issues
+        # Uses the cached AA response from the build step; closes any issues
+        # whose model now has pricing available.
+        if: steps.pipeline.outcome == 'success'
+        continue-on-error: true
+        run: uv run python src/issues.py resolve-existing
 
       - name: Open issues for new missing pricing
         if: steps.pipeline.outcome == 'success'
