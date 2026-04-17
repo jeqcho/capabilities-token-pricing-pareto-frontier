@@ -14,6 +14,10 @@ _CLAUDE_VERSION_FIRST = re.compile(
     r"^claude-(\d+(?:\.\d+)?)-(opus|sonnet|haiku)(.*)$"
 )
 
+# Noise tokens AA often inserts or appends that Epoch doesn't use.
+# Stripping them makes both sources converge on the same join key.
+_NOISE_TOKENS = ("instruct", "chat", "preview", "experimental")
+
 
 def normalize_name(name: str) -> str:
     """Collapse a model name to a join key. Kept permissive; manual overrides cover edge cases."""
@@ -34,6 +38,10 @@ def normalize_name(name: str) -> str:
     if m:
         version, tier, rest = m.groups()
         s = f"claude-{tier}-{version}{rest}"
+    # Strip noise tokens (as standalone dash-delimited segments) regardless of
+    # whether they appear as infix or suffix.
+    parts = [p for p in s.split("-") if p and p not in _NOISE_TOKENS]
+    s = "-".join(parts)
     return s
 
 
