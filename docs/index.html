@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Capabilities × Token Price Pareto Frontier</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <header>
+    <h1>Capabilities × Token Price Pareto Frontier</h1>
+    <p class="subtitle">
+      Epoch Capabilities Index (ECI) vs price per million tokens (log scale). Models on the frontier are those with no other model dominating them on both ECI and price.
+    </p>
+  </header>
+
+  <section class="controls">
+    <label>
+      <input type="checkbox" id="hide-reasoning" />
+      Hide reasoning models
+    </label>
+    <span id="status" class="status"></span>
+  </section>
+
+  <main>
+    <div id="plot-blended" class="plot plot-large"></div>
+    <div class="plot-row">
+      <div id="plot-input" class="plot plot-small"></div>
+      <div id="plot-output" class="plot plot-small"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Data: <a href="https://epoch.ai/benchmarks/eci" target="_blank" rel="noopener">Epoch AI ECI</a>
+      + <a href="https://artificialanalysis.ai/" target="_blank" rel="noopener">Artificial Analysis</a>.
+      Refreshed daily. <a href="https://github.com/jeqcho/capabilities-token-pricing-pareto-frontier" target="_blank" rel="noopener">Source</a>.
+    </p>
+    <p id="generated-at" class="generated-at"></p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

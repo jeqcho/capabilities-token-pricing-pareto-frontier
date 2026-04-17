@@ -1,0 +1,97 @@
+name: Daily pricing update
+
+on:
+  schedule:
+    - cron: "0 13 * * *"  # 13:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-pricing-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      pipeline_failed: ${{ steps.pipeline.outcome == 'failure' }}
+    env:
+      ARTIFICIAL_ANALYSIS_API_KEY: ${{ secrets.ARTIFICIAL_ANALYSIS_API_KEY }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONPATH: ${{ github.workspace }}/src
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Resolve existing missing-pricing issues
+        # Runs first so newly-available prices close stale issues before the build.
+        continue-on-error: true
+        run: uv run python src/issues.py resolve-existing
+
+      - name: Build dataset
+        id: pipeline
+        run: uv run python src/build_data.py
+
+      - name: Open issues for new missing pricing
+        if: steps.pipeline.outcome == 'success'
+        run: uv run python src/issues.py open-missing
+
+      - name: Open pipeline-failure issue
+        if: failure() && steps.pipeline.outcome == 'failure'
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: uv run python src/issues.py open-failure --run-url "$RUN_URL"
+
+      - name: Copy data into docs for Pages
+        if: steps.pipeline.outcome == 'success'
+        run: cp outputs/models.json docs/models.json
+
+      - name: Commit updated data
+        if: steps.pipeline.outcome == 'success'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/models.json outputs/last_eci_hash.txt outputs/missing_pricing.json docs/models.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: daily data update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        if: steps.pipeline.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.pipeline_failed != 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

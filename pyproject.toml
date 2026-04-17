@@ -1,0 +1,14 @@
+[project]
+name = "capabilities-token-pricing-pareto-frontier"
+version = "0.1.0"
+description = "ECI x Token Price Pareto frontier — data pipeline and static site"
+requires-python = ">=3.11"
+dependencies = [
+    "eci @ git+https://github.com/epoch-research/eci-public.git",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "requests>=2.31",
+]
+
+[tool.uv]
+package = false
