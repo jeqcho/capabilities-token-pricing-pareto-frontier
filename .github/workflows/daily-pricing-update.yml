@@ -78,16 +78,11 @@ jobs:
             git push
           fi
 
-      - name: Upload Pages artifact
-        # Always upload — even if the data refresh failed, we want Pages to
-        # publish the last-good docs/ that's already committed to main. Pricing
-        # failures shouldn't take the site offline.
-        if: always()
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
   deploy:
+    # Deploy is independent of update's success: it checks out main (which
+    # includes any commit update just pushed) and uploads docs/ itself. So
+    # if update fails — or never even acquires a runner — Pages still
+    # publishes the last-good docs/ from main.
     needs: update
     if: always()
     runs-on: ubuntu-latest
@@ -97,7 +92,18 @@ jobs:
     permissions:
       pages: write
       id-token: write
+      contents: read
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
