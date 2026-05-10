@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-09T14:21:38.228800+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-05-10T14:23:35.801536+00:00",
+  "eci_changed": false,
   "eci_sha256": "7d3eb6f8facb509518202b5b3982cec8ab8af3726cba243399879d13a5d990df",
   "model_count": 105,
   "missing_pricing_count": 67,
