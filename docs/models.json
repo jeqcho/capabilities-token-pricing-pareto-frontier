@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T16:32:10.918764+00:00",
+  "generated_at": "2026-05-21T16:26:35.536214+00:00",
   "eci_changed": false,
   "eci_sha256": "7d3eb6f8facb509518202b5b3982cec8ab8af3726cba243399879d13a5d990df",
   "model_count": 105,
@@ -245,12 +245,12 @@
       "release_date": "2026-02-02",
       "reasoning": false,
       "eci": 148.21141371247316,
-      "price_input": 0.54,
-      "price_output": 2.925,
-      "price_blended": 1.136,
+      "price_input": 0.58,
+      "price_output": 3.0,
+      "price_blended": 1.185,
       "on_frontier_blended": false,
       "on_frontier_input": false,
-      "on_frontier_output": true
+      "on_frontier_output": false
     },
     {
       "name": "o3-pro",
