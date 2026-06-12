@@ -3,362 +3,362 @@
     {
       "model": "GPT-5.5 Pro",
       "normalized": "gpt-5.5-pro",
-      "eci": 159.3499479509168
+      "eci": 159.37831739028965
     },
     {
       "model": "Muse Spark",
       "normalized": "muse-spark",
-      "eci": 155.10839945605994
+      "eci": 155.12386123923844
     },
     {
       "model": "GPT-5.2 Pro",
       "normalized": "gpt-5.2-pro",
-      "eci": 154.18734895402608
+      "eci": 154.20004755139865
     },
     {
       "model": "GPT-5 Pro",
       "normalized": "gpt-5-pro",
-      "eci": 150.21151254403418
+      "eci": 150.21202374529994
     },
     {
       "model": "Qwen 3.6 Max (Preview)",
       "normalized": "qwen-3.6-max",
-      "eci": 150.1631029798757
+      "eci": 150.164000397508
     },
     {
       "model": "Qwen 3.6 Plus",
       "normalized": "qwen-3.6-plus",
-      "eci": 149.0772410455711
+      "eci": 149.07504397640793
     },
     {
       "model": "Qwen 3.5 Plus (hosted 397B-A17B)",
       "normalized": "qwen-3.5-plus",
-      "eci": 146.11044166277142
+      "eci": 146.0994377519947
     },
     {
       "model": "Qwen 3.6 Flash",
       "normalized": "qwen-3.6-flash",
-      "eci": 145.16298308389776
+      "eci": 145.1490261928043
     },
     {
       "model": "Qwen 3.5 Flash (hosted 35B-A3B)",
       "normalized": "qwen-3.5-flash",
-      "eci": 144.87814587261366
+      "eci": 144.86331575811593
     },
     {
       "model": "GPT-4.5",
       "normalized": "gpt-4.5",
-      "eci": 137.70516086340794
+      "eci": 137.66870870247482
     },
     {
       "model": "o1-mini",
       "normalized": "o1-mini",
-      "eci": 136.67849460375194
+      "eci": 136.63847195736452
     },
     {
       "model": "Gemini 2.0 Flash Thinking",
       "normalized": "gemini-2.0-flash-thinking",
-      "eci": 136.38833356676952
+      "eci": 136.34714151502217
     },
     {
       "model": "Gemini 2.0 Pro",
       "normalized": "gemini-2.0-pro",
-      "eci": 135.75385791967113
+      "eci": 135.71041518580603
     },
     {
       "model": "Magistral Small 1.1",
       "normalized": "magistral-small-1.1",
-      "eci": 133.17614671004014
+      "eci": 133.1250104378434
     },
     {
       "model": "Gemini 1.5 Pro",
       "normalized": "gemini-1.5-pro",
-      "eci": 132.82895184033643
+      "eci": 132.77515464175312
     },
     {
       "model": "Grok-2",
       "normalized": "grok-2",
-      "eci": 130.83753285755233
+      "eci": 130.77820711426406
     },
     {
       "model": "Gemini 1.5 Flash",
       "normalized": "gemini-1.5-flash",
-      "eci": 130.43887665017567
+      "eci": 130.37452902346718
     },
     {
       "model": "Gemini 1.5 Pro",
       "normalized": "gemini-1.5-pro",
-      "eci": 127.77471268656178
+      "eci": 127.21087670219478
     },
     {
       "model": "Gemini 1.5 Pro",
       "normalized": "gemini-1.5-pro",
-      "eci": 127.28344508377222
+      "eci": 127.1581110829961
     },
     {
       "model": "Qwen2-72B",
       "normalized": "qwen2-72b",
-      "eci": 125.71640031633798
+      "eci": 125.63864552026364
     },
     {
       "model": "DeepSeek-V2 (MoE-236B)",
       "normalized": "deepseek-v2",
-      "eci": 124.41526633032026
+      "eci": 124.30417521685385
     },
     {
       "model": "Gemini 1.5 Flash",
       "normalized": "gemini-1.5-flash",
-      "eci": 122.52378510665041
+      "eci": 122.40362515634315
     },
     {
       "model": "Gemma 2 27B",
       "normalized": "gemma-2-27b",
-      "eci": 122.48369324765157
+      "eci": 122.39520603901532
     },
     {
       "model": "phi-3-small 7.4B",
       "normalized": "phi-3-small-7.4b",
-      "eci": 121.33183996073377
+      "eci": 121.23755147714743
     },
     {
       "model": "Mixtral 8x22B",
       "normalized": "mixtral-8x22b",
-      "eci": 121.20988923249429
+      "eci": 121.12178164126158
     },
     {
       "model": "phi-3-medium 14B",
       "normalized": "phi-3-medium-14b",
-      "eci": 120.82997827451184
+      "eci": 120.74316563338918
     },
     {
       "model": "Claude Instant",
       "normalized": "claude-instant",
-      "eci": 120.53959962783591
+      "eci": 120.4516765535243
     },
     {
       "model": "Claude 2",
       "normalized": "claude-2",
-      "eci": 119.53984602750126
+      "eci": 119.45357018304688
     },
     {
       "model": "Gemma 2 9B",
       "normalized": "gemma-2-9b",
-      "eci": 119.5143161064169
+      "eci": 119.42272520827478
     },
     {
       "model": "Qwen2.5-Coder (32B)",
       "normalized": "qwen2.5-coder",
-      "eci": 118.82462924267476
+      "eci": 118.74154791625595
     },
     {
       "model": "Mistral NeMo",
       "normalized": "mistral-nemo",
-      "eci": 118.27747200765145
+      "eci": 118.18728726517917
     },
     {
       "model": "Claude 2.1",
       "normalized": "claude-2.1",
-      "eci": 118.21004429693886
+      "eci": 118.12758087969726
     },
     {
       "model": "Yi-34B",
       "normalized": "yi-34b",
-      "eci": 117.40850720823192
+      "eci": 117.31854330028258
     },
     {
       "model": "Gemini 1.0 Pro",
       "normalized": "gemini-1.0-pro",
-      "eci": 116.937562321866
+      "eci": 116.8441357595178
     },
     {
       "model": "phi-3-mini 3.8B",
       "normalized": "phi-3-mini-3.8b",
-      "eci": 116.6312516893468
+      "eci": 116.55327535706535
     },
     {
       "model": "Stable Beluga 2",
       "normalized": "stable-beluga-2",
-      "eci": 116.35968971726368
+      "eci": 116.27747364737381
     },
     {
       "model": "Llama 2-70B",
       "normalized": "llama-2-70b",
-      "eci": 113.15234859859594
+      "eci": 113.19874073534137
     },
     {
       "model": "Qwen2.5-Coder (7B)",
       "normalized": "qwen2.5-coder",
-      "eci": 112.5582323422002
+      "eci": 112.49716664920787
     },
     {
       "model": "Qwen-14B",
       "normalized": "qwen-14b",
-      "eci": 112.38931113065208
+      "eci": 112.32036805889094
     },
     {
       "model": "Falcon-180B",
       "normalized": "falcon-180b",
-      "eci": 111.10681735155629
+      "eci": 111.04992730408807
     },
     {
       "model": "Gemma 7B",
       "normalized": "gemma-7b",
-      "eci": 111.0955848849502
+      "eci": 111.0334031076785
     },
     {
       "model": "LLaMA-65B",
       "normalized": "llama-65b",
-      "eci": 109.33725917099522
+      "eci": 109.28511045769412
     },
     {
       "model": "Falcon 2 11B",
       "normalized": "falcon-2-11b",
-      "eci": 109.10947153424591
+      "eci": 109.05497776265747
     },
     {
       "model": "Phi-2",
       "normalized": "phi-2",
-      "eci": 107.23447255241511
+      "eci": 107.1891204387673
     },
     {
       "model": "Nemotron-4 15B",
       "normalized": "nemotron-4-15b",
-      "eci": 106.84521707210347
+      "eci": 106.80139913168469
     },
     {
       "model": "LLaMA-33B",
       "normalized": "llama-33b",
-      "eci": 106.58839154497326
+      "eci": 106.54451305033787
     },
     {
       "model": "Qwen-7B",
       "normalized": "qwen-7b",
-      "eci": 106.48416477564858
+      "eci": 106.43811269512301
     },
     {
       "model": "Llama 2-13B",
       "normalized": "llama-2-13b",
-      "eci": 105.28768292669409
+      "eci": 105.24973547757666
     },
     {
       "model": "StarCoder 2 15B",
       "normalized": "starcoder-2-15b",
-      "eci": 104.50291917635802
+      "eci": 104.46775576473269
     },
     {
       "model": "Llama 2-34B",
       "normalized": "llama-2-34b",
-      "eci": 104.36144980358124
+      "eci": 104.32480154010337
     },
     {
       "model": "Yi 6B",
       "normalized": "yi-6b",
-      "eci": 104.08267724954857
+      "eci": 104.0474304714617
     },
     {
       "model": "Falcon-40B",
       "normalized": "falcon-40b",
-      "eci": 103.55925950392175
+      "eci": 103.52372987555422
     },
     {
       "model": "Qwen2.5-Coder (1.5B)",
       "normalized": "qwen2.5-coder",
-      "eci": 102.78486903267304
+      "eci": 102.7573727845578
     },
     {
       "model": "Baichuan2-13B",
       "normalized": "baichuan2-13b",
-      "eci": 102.4316118206807
+      "eci": 102.40519999631645
     },
     {
       "model": "INTELLECT-1",
       "normalized": "intellect-1",
-      "eci": 100.46087921900899
+      "eci": 100.43693368374122
     },
     {
       "model": "MPT-30B",
       "normalized": "mpt-30b",
-      "eci": 99.90924457793204
+      "eci": 99.88729216107909
     },
     {
       "model": "LLaMA-13B",
       "normalized": "llama-13b",
-      "eci": 99.63515050241416
+      "eci": 99.61273477164379
     },
     {
       "model": "DeepSeek Coder 33B",
       "normalized": "deepseek-coder-33b",
-      "eci": 96.2384524680012
-    },
-    {
-      "model": "LLaMA-7B",
-      "normalized": "llama-7b",
-      "eci": 95.6649039656439
+      "eci": 96.22922256149246
     },
     {
       "model": "Baichuan 2-7B",
       "normalized": "baichuan-2-7b",
-      "eci": 95.66375479141982
+      "eci": 95.65913283773577
+    },
+    {
+      "model": "LLaMA-7B",
+      "normalized": "llama-7b",
+      "eci": 95.65439655917176
     },
     {
       "model": "Falcon-7B",
       "normalized": "falcon-7b",
-      "eci": 93.9527363667532
+      "eci": 93.94807776750221
     },
     {
       "model": "Gemma 2B",
       "normalized": "gemma-2b",
-      "eci": 93.57430068948719
+      "eci": 93.57367928505559
     },
     {
       "model": "StarCoder 2 7B",
       "normalized": "starcoder-2-7b",
-      "eci": 93.50283699599298
+      "eci": 93.50206944589159
     },
     {
       "model": "MPT-7B",
       "normalized": "mpt-7b",
-      "eci": 93.44025923175921
+      "eci": 93.4371142139438
     },
     {
       "model": "XGen-7B",
       "normalized": "xgen-7b",
-      "eci": 91.64444917343593
+      "eci": 91.64208094099494
     },
     {
       "model": "Phi-1.5",
       "normalized": "phi-1.5",
-      "eci": 90.2651663567811
+      "eci": 90.26676976441698
     },
     {
       "model": "Baichuan1-7B",
       "normalized": "baichuan1-7b",
-      "eci": 89.8598407308413
+      "eci": 89.87649828902543
     },
     {
       "model": "DeepSeek Coder 6.7B",
       "normalized": "deepseek-coder-6.7b",
-      "eci": 89.51951606187791
+      "eci": 89.53018991706936
     },
     {
       "model": "StarCoder 2 3B",
       "normalized": "starcoder-2-3b",
-      "eci": 88.61279423536497
+      "eci": 88.62610692401708
     },
     {
       "model": "Dolly 2.0-12b",
       "normalized": "dolly-2.0-12b",
-      "eci": 87.39009401333583
+      "eci": 87.39857858588428
     },
     {
       "model": "Cerebras-GPT-13B",
       "normalized": "cerebras-gpt-13b",
-      "eci": 79.92121130586104
+      "eci": 79.95322776769257
     },
     {
       "model": "DeepSeek Coder 1.3B",
       "normalized": "deepseek-coder-1.3b",
-      "eci": 62.108129513443735
+      "eci": 62.24400559276261
     }
   ]
 }
