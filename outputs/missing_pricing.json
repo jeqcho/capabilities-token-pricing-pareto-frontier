@@ -26,11 +26,6 @@
       "eci": 150.45998699405934
     },
     {
-      "model": "Kimi K2.7 Code",
-      "normalized": "kimi-k2.7-code",
-      "eci": 150.3644868600678
-    },
-    {
       "model": "Qwen 3.6 Plus",
       "normalized": "qwen-3.6-plus",
       "eci": 148.93454203672835

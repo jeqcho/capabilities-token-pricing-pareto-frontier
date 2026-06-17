@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T18:09:13.186765+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-06-17T16:42:16.059660+00:00",
+  "eci_changed": false,
   "eci_sha256": "73128d2b52bcec7b37d331c712b75f40c3dd59e56d6e072c55750b70b4167eb6",
-  "model_count": 109,
-  "missing_pricing_count": 89,
+  "model_count": 110,
+  "missing_pricing_count": 88,
   "models": [
     {
       "name": "Claude Fable 5",
@@ -225,6 +225,19 @@
       "on_frontier_blended": true,
       "on_frontier_input": true,
       "on_frontier_output": true
+    },
+    {
+      "name": "Kimi K2.7 Code",
+      "org": null,
+      "release_date": null,
+      "reasoning": false,
+      "eci": 150.3644868600678,
+      "price_input": 0.95,
+      "price_output": 4.0,
+      "price_blended": 1.712,
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
+      "on_frontier_output": false
     },
     {
       "name": "GPT-5",
