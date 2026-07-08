@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:49:49.009327+00:00",
+  "generated_at": "2026-07-08T15:31:00.959697+00:00",
   "eci_changed": false,
   "eci_sha256": "11852d383a4473ed0888ea2b0066419e8225ebedd40a0109aac2ca69a0e9f9f8",
   "model_count": 113,
@@ -124,7 +124,7 @@
     },
     {
       "name": "Gemini 3.5 Flash",
-      "org": null,
+      "org": "Google",
       "release_date": null,
       "reasoning": false,
       "eci": 154.8159082214334,
@@ -202,8 +202,8 @@
     },
     {
       "name": "GLM-5.2",
-      "org": null,
-      "release_date": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
       "reasoning": false,
       "eci": 151.70236097637715,
       "price_input": 1.4,
@@ -254,8 +254,8 @@
     },
     {
       "name": "Kimi K2.7 Code",
-      "org": null,
-      "release_date": null,
+      "org": "Moonshot",
+      "release_date": "2026-06-12",
       "reasoning": false,
       "eci": 150.0218892747176,
       "price_input": 0.95,
