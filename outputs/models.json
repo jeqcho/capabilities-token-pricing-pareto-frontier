@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T15:02:35.548928+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-07-15T15:00:46.959973+00:00",
+  "eci_changed": false,
   "eci_sha256": "6208a2ec91e7496fdc5a2fe243c1a74f46b1efed86bd0fc8ff3d2475161fab4d",
   "model_count": 119,
   "missing_pricing_count": 92,
@@ -1493,9 +1493,9 @@
       "release_date": "2024-07-23",
       "reasoning": false,
       "eci": 115.42405805897876,
-      "price_input": 0.075,
-      "price_output": 0.095,
-      "price_blended": 0.08,
+      "price_input": 0.1,
+      "price_output": 0.1,
+      "price_blended": 0.1,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": true
