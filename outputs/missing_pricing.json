@@ -131,6 +131,11 @@
       "eci": 127.19091040731658
     },
     {
+      "model": "Llama 3.2 90B",
+      "normalized": "llama-3.2-90b",
+      "eci": 125.69265837687931
+    },
+    {
       "model": "Qwen2-72B",
       "normalized": "qwen2-72b",
       "eci": 125.4744477758003
