@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:20:28.738343+00:00",
+  "generated_at": "2026-07-31T15:27:03.339777+00:00",
   "eci_changed": false,
   "eci_sha256": "d7cad7a8595347a62a2f832205aae579e371f05afe6ab08bc9506631e38c70d1",
   "model_count": 115,
@@ -63,9 +63,9 @@
       "release_date": "2026-07-09",
       "reasoning": false,
       "eci": 158.2327934914555,
-      "price_input": 2.5,
-      "price_output": 15.0,
-      "price_blended": 5.625,
+      "price_input": 2.0,
+      "price_output": 12.0,
+      "price_blended": 4.5,
       "on_frontier_blended": true,
       "on_frontier_input": true,
       "on_frontier_output": true
@@ -144,9 +144,9 @@
       "price_input": 1.75,
       "price_output": 14.0,
       "price_blended": 4.813,
-      "on_frontier_blended": true,
+      "on_frontier_blended": false,
       "on_frontier_input": true,
-      "on_frontier_output": true
+      "on_frontier_output": false
     },
     {
       "name": "Claude Opus 4.6",
@@ -167,9 +167,9 @@
       "release_date": "2026-07-09",
       "reasoning": false,
       "eci": 155.34772108130477,
-      "price_input": 1.0,
-      "price_output": 6.0,
-      "price_blended": 2.25,
+      "price_input": 0.2,
+      "price_output": 1.2,
+      "price_blended": 0.45,
       "on_frontier_blended": true,
       "on_frontier_input": true,
       "on_frontier_output": true
@@ -300,9 +300,9 @@
       "price_input": 1.351,
       "price_output": 4.25,
       "price_blended": 2.076,
-      "on_frontier_blended": true,
+      "on_frontier_blended": false,
       "on_frontier_input": false,
-      "on_frontier_output": true
+      "on_frontier_output": false
     },
     {
       "name": "Kimi K2.6",
@@ -313,9 +313,9 @@
       "price_input": 0.95,
       "price_output": 4.0,
       "price_blended": 1.712,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
-      "on_frontier_output": true
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
+      "on_frontier_output": false
     },
     {
       "name": "Gemini 3 Flash",
@@ -326,9 +326,9 @@
       "price_input": 0.5,
       "price_output": 3.0,
       "price_blended": 1.125,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
-      "on_frontier_output": true
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
+      "on_frontier_output": false
     },
     {
       "name": "GLM-5.1",
@@ -417,8 +417,8 @@
       "price_input": 0.435,
       "price_output": 0.87,
       "price_blended": 0.544,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
       "on_frontier_output": true
     },
     {
@@ -456,8 +456,8 @@
       "price_input": 0.3,
       "price_output": 1.2,
       "price_blended": 0.525,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
       "on_frontier_output": false
     },
     {
@@ -521,8 +521,8 @@
       "price_input": 0.2,
       "price_output": 1.25,
       "price_blended": 0.463,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
       "on_frontier_output": false
     },
     {
@@ -909,8 +909,8 @@
       "reasoning": false,
       "eci": 140.60808900319205,
       "price_input": 0.15,
-      "price_output": 0.6,
-      "price_blended": 0.262,
+      "price_output": 0.595,
+      "price_blended": 0.261,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
