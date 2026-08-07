@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-06T15:24:25.707552+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-08-07T14:17:32.632034+00:00",
+  "eci_changed": false,
   "eci_sha256": "946538f24b2d16cbbccc54c554d86e5afb6d4b3f175bf9bdeae2af61869658b6",
-  "model_count": 122,
-  "missing_pricing_count": 100,
+  "model_count": 121,
+  "missing_pricing_count": 101,
   "models": [
     {
       "name": "GPT-5.6 Sol",
@@ -987,8 +987,8 @@
       "reasoning": false,
       "eci": 140.48204754415715,
       "price_input": 0.15,
-      "price_output": 0.595,
-      "price_blended": 0.261,
+      "price_output": 0.545,
+      "price_blended": 0.249,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1169,8 +1169,8 @@
       "reasoning": false,
       "eci": 132.83547959551726,
       "price_input": 0.27,
-      "price_output": 0.91,
-      "price_blended": 0.43,
+      "price_output": 0.85,
+      "price_blended": 0.415,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1267,19 +1267,6 @@
       "on_frontier_output": false
     },
     {
-      "name": "Llama 3.1-405B",
-      "org": "Meta AI",
-      "release_date": "2024-07-23",
-      "reasoning": false,
-      "eci": 128.73171116472602,
-      "price_input": 2.5,
-      "price_output": 10.0,
-      "price_blended": 4.375,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "GPT-4o",
       "org": "OpenAI",
       "release_date": "2024-05-13",
@@ -1350,9 +1337,9 @@
       "release_date": "2024-12-06",
       "reasoning": false,
       "eci": 127.20268741878888,
-      "price_input": 0.6,
+      "price_input": 0.655,
       "price_output": 0.72,
-      "price_blended": 0.63,
+      "price_blended": 0.671,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1532,10 +1519,10 @@
       "release_date": "2024-07-23",
       "reasoning": false,
       "eci": 114.90773117349015,
-      "price_input": 0.075,
-      "price_output": 0.09,
-      "price_blended": 0.079,
-      "on_frontier_blended": false,
+      "price_input": 0.05,
+      "price_output": 0.08,
+      "price_blended": 0.058,
+      "on_frontier_blended": true,
       "on_frontier_input": false,
       "on_frontier_output": true
     },

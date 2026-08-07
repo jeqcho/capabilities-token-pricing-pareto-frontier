@@ -131,6 +131,11 @@
       "eci": 130.1589984561126
     },
     {
+      "model": "Llama 3.1-405B",
+      "normalized": "llama-3.1-405b",
+      "eci": 128.73171116472602
+    },
+    {
       "model": "Claude 3.5 Haiku",
       "normalized": "claude-haiku-3.5",
       "eci": 127.1954289190162
