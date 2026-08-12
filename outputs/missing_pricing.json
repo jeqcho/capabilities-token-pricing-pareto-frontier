@@ -196,6 +196,11 @@
       "eci": 120.64725496514366
     },
     {
+      "model": "Claude 3 Sonnet",
+      "normalized": "claude-sonnet-3",
+      "eci": 119.46965637252634
+    },
+    {
       "model": "Claude 2",
       "normalized": "claude-2",
       "eci": 119.13886081438118

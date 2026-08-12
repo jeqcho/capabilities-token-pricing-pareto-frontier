@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11T14:24:04.111849+00:00",
+  "generated_at": "2026-08-12T14:24:09.192616+00:00",
   "eci_changed": false,
   "eci_sha256": "946538f24b2d16cbbccc54c554d86e5afb6d4b3f175bf9bdeae2af61869658b6",
-  "model_count": 121,
-  "missing_pricing_count": 101,
+  "model_count": 120,
+  "missing_pricing_count": 102,
   "models": [
     {
       "name": "GPT-5.6 Sol",
@@ -1443,19 +1443,6 @@
       "eci": 120.61549005841914,
       "price_input": 4.0,
       "price_output": 12.0,
-      "price_blended": 6.0,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
-      "name": "Claude 3 Sonnet",
-      "org": "Anthropic",
-      "release_date": "2024-03-04",
-      "reasoning": false,
-      "eci": 119.46965637252634,
-      "price_input": 3.0,
-      "price_output": 15.0,
       "price_blended": 6.0,
       "on_frontier_blended": false,
       "on_frontier_input": false,
