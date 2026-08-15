@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:19:23.763211+00:00",
+  "generated_at": "2026-08-15T13:37:48.589329+00:00",
   "eci_changed": false,
   "eci_sha256": "946538f24b2d16cbbccc54c554d86e5afb6d4b3f175bf9bdeae2af61869658b6",
   "model_count": 120,
@@ -297,12 +297,12 @@
       "release_date": "2026-07-31",
       "reasoning": false,
       "eci": 152.5308780604318,
-      "price_input": 0.14,
-      "price_output": 0.28,
-      "price_blended": 0.175,
-      "on_frontier_blended": true,
-      "on_frontier_input": true,
-      "on_frontier_output": true
+      "price_input": 0.44,
+      "price_output": 1.32,
+      "price_blended": 0.66,
+      "on_frontier_blended": false,
+      "on_frontier_input": false,
+      "on_frontier_output": false
     },
     {
       "name": "Claude Sonnet 4.6",
@@ -458,7 +458,7 @@
       "price_blended": 0.544,
       "on_frontier_blended": false,
       "on_frontier_input": false,
-      "on_frontier_output": false
+      "on_frontier_output": true
     },
     {
       "name": "GPT-5.4 Mini",
@@ -573,9 +573,9 @@
       "price_input": 0.28,
       "price_output": 0.42,
       "price_blended": 0.315,
-      "on_frontier_blended": false,
+      "on_frontier_blended": true,
       "on_frontier_input": false,
-      "on_frontier_output": false
+      "on_frontier_output": true
     },
     {
       "name": "o4-mini",
@@ -716,7 +716,7 @@
       "price_input": 0.2,
       "price_output": 0.5,
       "price_blended": 0.275,
-      "on_frontier_blended": false,
+      "on_frontier_blended": true,
       "on_frontier_input": false,
       "on_frontier_output": false
     },
@@ -965,7 +965,7 @@
       "price_blended": 0.138,
       "on_frontier_blended": true,
       "on_frontier_input": true,
-      "on_frontier_output": false
+      "on_frontier_output": true
     },
     {
       "name": "Gemini 2.5 Flash",
@@ -1303,7 +1303,7 @@
       "price_blended": 0.15,
       "on_frontier_blended": false,
       "on_frontier_input": false,
-      "on_frontier_output": false
+      "on_frontier_output": true
     },
     {
       "name": "GPT-4 Turbo (Apr 2024)",
