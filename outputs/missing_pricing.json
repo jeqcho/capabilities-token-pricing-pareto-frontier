@@ -246,6 +246,11 @@
       "eci": 119.4052839613149
     },
     {
+      "model": "Command R+",
+      "normalized": "command-r+",
+      "eci": 119.261753062411
+    },
+    {
       "model": "Claude 2.1",
       "normalized": "claude-2.1",
       "eci": 119.17834767334703
