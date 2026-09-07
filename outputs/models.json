@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:10:37.141016+00:00",
+  "generated_at": "2026-09-07T18:14:35.510566+00:00",
   "eci_changed": false,
   "eci_sha256": "42e7fc2c369e6725eaaa34d74517acc09835b3f03f9262912998c812c2148ecd",
   "model_count": 151,
@@ -449,8 +449,8 @@
     },
     {
       "name": "GLM-5.3-Flash",
-      "org": null,
-      "release_date": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
       "reasoning": false,
       "eci": 151.6376218593776,
       "price_input": 0.15,
