@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T17:15:53.295896+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-09-09T17:10:16.381455+00:00",
+  "eci_changed": false,
   "eci_sha256": "fa70664e6fdf1ee663b15e0127aec8c5adac50bdd3288ceaf2127244b29fd2a7",
   "model_count": 148,
   "missing_pricing_count": 116,
@@ -618,8 +618,8 @@
     },
     {
       "name": "Qwen3.7-Plus",
-      "org": null,
-      "release_date": null,
+      "org": "Alibaba",
+      "release_date": "2026-06-03",
       "reasoning": false,
       "eci": 147.4162054988841,
       "price_input": 0.4,
@@ -1415,9 +1415,9 @@
       "release_date": "2024-12-24",
       "reasoning": false,
       "eci": 135.95262953450262,
-      "price_input": 0.36,
+      "price_input": 0.32,
       "price_output": 0.89,
-      "price_blended": 0.493,
+      "price_blended": 0.463,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1493,9 +1493,9 @@
       "release_date": "2024-12-24",
       "reasoning": false,
       "eci": 132.35000311385363,
-      "price_input": 0.36,
+      "price_input": 0.32,
       "price_output": 0.89,
-      "price_blended": 0.493,
+      "price_blended": 0.463,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
