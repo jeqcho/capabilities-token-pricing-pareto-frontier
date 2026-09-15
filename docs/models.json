@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T18:34:19.495408+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-09-15T17:41:21.547829+00:00",
+  "eci_changed": false,
   "eci_sha256": "1e76d871dbf402938349f23bc843cef7b0876f06f6b2380f83a21c1c8b5c3eee",
-  "model_count": 150,
-  "missing_pricing_count": 116,
+  "model_count": 149,
+  "missing_pricing_count": 117,
   "models": [
     {
       "name": "GPT-6 Astra",
@@ -753,8 +753,8 @@
       "reasoning": false,
       "eci": 146.2692893585919,
       "price_input": 0.6,
-      "price_output": 2.6,
-      "price_blended": 1.1,
+      "price_output": 2.4,
+      "price_blended": 1.05,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1080,19 +1080,6 @@
       "price_input": 0.115,
       "price_output": 0.37,
       "price_blended": 0.179,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
-      "name": "Claude Sonnet 4",
-      "org": "Anthropic",
-      "release_date": "2025-05-22",
-      "reasoning": false,
-      "eci": 141.6871488114711,
-      "price_input": 3.0,
-      "price_output": 15.0,
-      "price_blended": 6.0,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false

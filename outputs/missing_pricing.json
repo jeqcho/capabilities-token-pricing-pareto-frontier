@@ -76,6 +76,11 @@
       "eci": 142.6587997901896
     },
     {
+      "model": "Claude Sonnet 4",
+      "normalized": "claude-sonnet-4",
+      "eci": 141.6871488114711
+    },
+    {
       "model": "Qwen3-30B-A3B-Thinking (Jul 2025)",
       "normalized": "qwen3-30b-a3b-thinking",
       "eci": 139.6413493486099
