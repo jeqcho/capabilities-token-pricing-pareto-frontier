@@ -91,6 +91,11 @@
       "eci": 139.633778451082
     },
     {
+      "model": "QwQ-32B",
+      "normalized": "qwq-32b",
+      "eci": 137.5959660005881
+    },
+    {
       "model": "DeepSeek-R1-Distill-Qwen-32B",
       "normalized": "deepseek-r1-distill-qwen-32b",
       "eci": 137.4364426626203

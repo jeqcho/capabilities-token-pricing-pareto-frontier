@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-09T18:47:48.107543+00:00",
+  "generated_at": "2026-10-10T17:49:17.632260+00:00",
   "eci_changed": false,
   "eci_sha256": "84423df0ed6e137365e2d8039f54e16ddb1b4747f8b11793498416b4340c32fe",
-  "model_count": 156,
-  "missing_pricing_count": 118,
+  "model_count": 155,
+  "missing_pricing_count": 119,
   "models": [
     {
       "name": "Claude Opus 5.5",
@@ -1182,8 +1182,8 @@
       "reasoning": false,
       "eci": 141.85121788504557,
       "price_input": 0.1,
-      "price_output": 0.37,
-      "price_blended": 0.168,
+      "price_output": 0.4,
+      "price_blended": 0.175,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1312,8 +1312,8 @@
       "reasoning": false,
       "eci": 139.93457039734577,
       "price_input": 0.15,
-      "price_output": 0.545,
-      "price_blended": 0.249,
+      "price_output": 0.5,
+      "price_blended": 0.237,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1415,9 +1415,9 @@
       "release_date": "2025-02-17",
       "reasoning": false,
       "eci": 138.33233299626409,
-      "price_input": 4.0,
-      "price_output": 20.0,
-      "price_blended": 8.0,
+      "price_input": 3.0,
+      "price_output": 15.0,
+      "price_blended": 6.0,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1447,19 +1447,6 @@
       "on_frontier_blended": true,
       "on_frontier_input": false,
       "on_frontier_output": true
-    },
-    {
-      "name": "QwQ-32B",
-      "org": "Alibaba",
-      "release_date": "2025-03-06",
-      "reasoning": true,
-      "eci": 137.5959660005881,
-      "price_input": 0.66,
-      "price_output": 1.0,
-      "price_blended": 0.745,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
     },
     {
       "name": "Qwen3-30B-A3B-Instruct (Jul 2025)",
@@ -1675,9 +1662,9 @@
       "release_date": "2025-04-05",
       "reasoning": false,
       "eci": 129.641862962103,
-      "price_input": 0.19,
-      "price_output": 0.68,
-      "price_blended": 0.313,
+      "price_input": 0.18,
+      "price_output": 0.66,
+      "price_blended": 0.3,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1779,10 +1766,10 @@
       "release_date": "2025-03-17",
       "reasoning": false,
       "eci": 127.48162841161584,
-      "price_input": 0.11,
-      "price_output": 0.17,
-      "price_blended": 0.125,
-      "on_frontier_blended": false,
+      "price_input": 0.08,
+      "price_output": 0.135,
+      "price_blended": 0.094,
+      "on_frontier_blended": true,
       "on_frontier_input": false,
       "on_frontier_output": true
     },
@@ -1974,9 +1961,9 @@
       "release_date": "2024-07-23",
       "reasoning": false,
       "eci": 116.56941118696734,
-      "price_input": 0.02,
-      "price_output": 0.05,
-      "price_blended": 0.028,
+      "price_input": 0.035,
+      "price_output": 0.065,
+      "price_blended": 0.043,
       "on_frontier_blended": true,
       "on_frontier_input": true,
       "on_frontier_output": true
