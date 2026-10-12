@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-11T18:03:02.420140+00:00",
+  "generated_at": "2026-10-12T21:44:36.735374+00:00",
   "eci_changed": false,
   "eci_sha256": "84423df0ed6e137365e2d8039f54e16ddb1b4747f8b11793498416b4340c32fe",
-  "model_count": 155,
-  "missing_pricing_count": 119,
+  "model_count": 152,
+  "missing_pricing_count": 122,
   "models": [
     {
       "name": "Claude Opus 5.5",
@@ -1150,19 +1150,6 @@
       "on_frontier_output": false
     },
     {
-      "name": "Qwen3-Max",
-      "org": "Alibaba",
-      "release_date": "2025-09-05",
-      "reasoning": false,
-      "eci": 142.3838280245066,
-      "price_input": 1.2,
-      "price_output": 6.0,
-      "price_blended": 2.4,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "o1",
       "org": "OpenAI",
       "release_date": "2024-09-12",
@@ -1358,19 +1345,6 @@
       "on_frontier_output": false
     },
     {
-      "name": "Qwen3-235B-A22B",
-      "org": "Alibaba",
-      "release_date": "2025-04-29",
-      "reasoning": false,
-      "eci": 139.3542421340281,
-      "price_input": 0.7,
-      "price_output": 2.8,
-      "price_blended": 1.225,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "DeepSeek-R1",
       "org": "DeepSeek",
       "release_date": "2025-01-20",
@@ -1384,27 +1358,14 @@
       "on_frontier_output": false
     },
     {
-      "name": "Qwen3-235B-A22B-Instruct (Jul 2025)",
-      "org": "Alibaba",
-      "release_date": "2025-04-29",
-      "reasoning": false,
-      "eci": 138.91772729845133,
-      "price_input": 0.7,
-      "price_output": 2.8,
-      "price_blended": 1.225,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "Qwen3-32B",
       "org": "Alibaba",
       "release_date": "2025-04-29",
       "reasoning": false,
       "eci": 138.50852845949655,
-      "price_input": 0.16,
-      "price_output": 0.64,
-      "price_blended": 0.28,
+      "price_input": 0.15,
+      "price_output": 0.6,
+      "price_blended": 0.262,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1428,9 +1389,9 @@
       "release_date": "2025-04-29",
       "reasoning": false,
       "eci": 138.23477675366462,
-      "price_input": 0.35,
-      "price_output": 1.4,
-      "price_blended": 0.612,
+      "price_input": 0.12,
+      "price_output": 0.24,
+      "price_blended": 0.15,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1454,9 +1415,9 @@
       "release_date": "2025-04-29",
       "reasoning": false,
       "eci": 137.42210980590636,
-      "price_input": 0.2,
-      "price_output": 0.8,
-      "price_blended": 0.35,
+      "price_input": 0.12,
+      "price_output": 0.5,
+      "price_blended": 0.215,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1480,9 +1441,9 @@
       "release_date": "2025-04-29",
       "reasoning": false,
       "eci": 136.18356137100184,
-      "price_input": 0.2,
-      "price_output": 0.8,
-      "price_blended": 0.35,
+      "price_input": 0.12,
+      "price_output": 0.5,
+      "price_blended": 0.215,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1493,9 +1454,9 @@
       "release_date": "2025-04-29",
       "reasoning": false,
       "eci": 136.17263054671406,
-      "price_input": 0.18,
-      "price_output": 0.7,
-      "price_blended": 0.31,
+      "price_input": 0.2,
+      "price_output": 0.2,
+      "price_blended": 0.2,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false

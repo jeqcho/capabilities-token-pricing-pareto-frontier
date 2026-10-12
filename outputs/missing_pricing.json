@@ -81,6 +81,11 @@
       "eci": 142.7427985734956
     },
     {
+      "model": "Qwen3-Max",
+      "normalized": "qwen3-max",
+      "eci": 142.3838280245066
+    },
+    {
       "model": "Claude Sonnet 4",
       "normalized": "claude-sonnet-4",
       "eci": 141.6860172112386
@@ -89,6 +94,16 @@
       "model": "Qwen3-30B-A3B-Thinking (Jul 2025)",
       "normalized": "qwen3-30b-a3b-thinking",
       "eci": 139.633778451082
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "normalized": "qwen3-235b-a22b",
+      "eci": 139.3542421340281
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct (Jul 2025)",
+      "normalized": "qwen3-235b-a22b",
+      "eci": 138.91772729845133
     },
     {
       "model": "QwQ-32B",
