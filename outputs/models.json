@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T17:45:08.651837+00:00",
-  "eci_changed": true,
+  "generated_at": "2026-10-16T17:21:36.155904+00:00",
+  "eci_changed": false,
   "eci_sha256": "6a7172d69a88a928da3c38027706a9a067ba669097bb30f15baccd7741f31c7a",
   "model_count": 155,
   "missing_pricing_count": 122,
@@ -974,8 +974,8 @@
       "reasoning": false,
       "eci": 145.76993396840552,
       "price_input": 0.6,
-      "price_output": 2.5,
-      "price_blended": 1.075,
+      "price_output": 2.7,
+      "price_blended": 1.125,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1208,8 +1208,8 @@
       "reasoning": false,
       "eci": 141.80944862466072,
       "price_input": 0.1,
-      "price_output": 0.4,
-      "price_blended": 0.175,
+      "price_output": 0.37,
+      "price_blended": 0.168,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1324,9 +1324,9 @@
       "release_date": "2025-08-05",
       "reasoning": false,
       "eci": 139.99572933665343,
-      "price_input": 0.15,
-      "price_output": 0.5,
-      "price_blended": 0.237,
+      "price_input": 0.1,
+      "price_output": 0.59,
+      "price_blended": 0.223,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1441,12 +1441,12 @@
       "release_date": "2025-08-05",
       "reasoning": false,
       "eci": 137.8079566920704,
-      "price_input": 0.07,
-      "price_output": 0.18,
-      "price_blended": 0.098,
+      "price_input": 0.058,
+      "price_output": 0.215,
+      "price_blended": 0.097,
       "on_frontier_blended": true,
       "on_frontier_input": false,
-      "on_frontier_output": true
+      "on_frontier_output": false
     },
     {
       "name": "Qwen3-30B-A3B-Instruct (Jul 2025)",
@@ -1598,8 +1598,8 @@
       "reasoning": false,
       "eci": 132.19988555061957,
       "price_input": 0.25,
-      "price_output": 0.87,
-      "price_blended": 0.405,
+      "price_output": 0.92,
+      "price_blended": 0.417,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
