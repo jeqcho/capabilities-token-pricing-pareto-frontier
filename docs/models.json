@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:21:40.745158+00:00",
+  "generated_at": "2026-10-18T16:30:07.321809+00:00",
   "eci_changed": false,
   "eci_sha256": "6a7172d69a88a928da3c38027706a9a067ba669097bb30f15baccd7741f31c7a",
   "model_count": 155,
@@ -440,12 +440,12 @@
       "release_date": "2026-07-31",
       "reasoning": false,
       "eci": 154.4870280936645,
-      "price_input": 0.44,
-      "price_output": 1.32,
-      "price_blended": 0.66,
-      "on_frontier_blended": false,
+      "price_input": 0.14,
+      "price_output": 0.28,
+      "price_blended": 0.175,
+      "on_frontier_blended": true,
       "on_frontier_input": false,
-      "on_frontier_output": false
+      "on_frontier_output": true
     },
     {
       "name": "Gemini 3.5 Flash",
@@ -913,7 +913,7 @@
       "price_blended": 0.315,
       "on_frontier_blended": false,
       "on_frontier_input": false,
-      "on_frontier_output": true
+      "on_frontier_output": false
     },
     {
       "name": "DeepSeek-V4-Flash",
