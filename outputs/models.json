@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:11:33.585058+00:00",
+  "generated_at": "2026-10-27T18:41:26.902907+00:00",
   "eci_changed": false,
   "eci_sha256": "7ca30714b01970a28fd06c40b1f0f87c9ab3deebddb5e1f2dc45950754776f43",
   "model_count": 154,
@@ -375,9 +375,9 @@
       "release_date": "2026-09-09",
       "reasoning": false,
       "eci": 155.92291409565314,
-      "price_input": 0.295,
+      "price_input": 0.3,
       "price_output": 1.2,
-      "price_blended": 0.521,
+      "price_blended": 0.525,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1779,9 +1779,9 @@
       "release_date": "2024-12-06",
       "reasoning": false,
       "eci": 127.32284028879916,
-      "price_input": 0.655,
-      "price_output": 0.715,
-      "price_blended": 0.67,
+      "price_input": 0.6,
+      "price_output": 0.71,
+      "price_blended": 0.627,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
