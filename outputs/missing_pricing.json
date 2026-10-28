@@ -186,6 +186,11 @@
       "eci": 126.93916597555611
     },
     {
+      "model": "GPT-4 (Mar 2023)",
+      "normalized": "gpt-4",
+      "eci": 125.72352500954702
+    },
+    {
       "model": "Llama 3.2 90B",
       "normalized": "llama-3.2-90b",
       "eci": 125.51889038008161
@@ -204,6 +209,11 @@
       "model": "Gemma 3 12B",
       "normalized": "gemma-3-12b",
       "eci": 123.5335704182885
+    },
+    {
+      "model": "GPT-4 (Jun 2023)",
+      "normalized": "gpt-4",
+      "eci": 123.08192425152168
     },
     {
       "model": "Gemini 1.5 Flash (May 2024)",
@@ -276,6 +286,11 @@
       "eci": 118.5204685709129
     },
     {
+      "model": "GPT-3.5 Turbo (Nov 2023)",
+      "normalized": "gpt-3.5-turbo",
+      "eci": 118.50929443884952
+    },
+    {
       "model": "Ministral 3B",
       "normalized": "ministral-3b",
       "eci": 118.0264835674418
@@ -311,6 +326,11 @@
       "eci": 115.87404653702964
     },
     {
+      "model": "GPT-3.5 Turbo (Jan 2024)",
+      "normalized": "gpt-3.5-turbo",
+      "eci": 115.64884758113604
+    },
+    {
       "model": "PaLM 2-L",
       "normalized": "palm-2-l",
       "eci": 114.83980877382434
@@ -319,6 +339,11 @@
       "model": "Llama 2-70B",
       "normalized": "llama-2-70b",
       "eci": 113.60613873741306
+    },
+    {
+      "model": "GPT-3.5 Turbo (Jun 2023)",
+      "normalized": "gpt-3.5-turbo",
+      "eci": 113.1511261708057
     },
     {
       "model": "Qwen2.5-Coder (7B)",

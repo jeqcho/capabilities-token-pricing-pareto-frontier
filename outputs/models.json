@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T18:41:26.902907+00:00",
+  "generated_at": "2026-10-28T18:47:38.781202+00:00",
   "eci_changed": false,
   "eci_sha256": "7ca30714b01970a28fd06c40b1f0f87c9ab3deebddb5e1f2dc45950754776f43",
-  "model_count": 154,
-  "missing_pricing_count": 116,
+  "model_count": 149,
+  "missing_pricing_count": 121,
   "models": [
     {
       "name": "Claude Opus 5.5",
@@ -63,9 +63,9 @@
       "release_date": "2026-09-30",
       "reasoning": false,
       "eci": 166.4453054832274,
-      "price_input": 2.0,
-      "price_output": 10.0,
-      "price_blended": 4.0,
+      "price_input": 4.0,
+      "price_output": 20.0,
+      "price_blended": 8.0,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
@@ -1852,32 +1852,6 @@
       "on_frontier_output": false
     },
     {
-      "name": "GPT-4 (Mar 2023)",
-      "org": "OpenAI",
-      "release_date": "2023-03-15",
-      "reasoning": false,
-      "eci": 125.72352500954702,
-      "price_input": 30.0,
-      "price_output": 60.0,
-      "price_blended": 37.5,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
-      "name": "GPT-4 (Jun 2023)",
-      "org": "OpenAI",
-      "release_date": "2023-03-15",
-      "reasoning": false,
-      "eci": 123.08192425152168,
-      "price_input": 30.0,
-      "price_output": 60.0,
-      "price_blended": 37.5,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "Llama 3-70B",
       "org": "Meta AI",
       "release_date": "2024-04-18",
@@ -1917,19 +1891,6 @@
       "on_frontier_output": false
     },
     {
-      "name": "GPT-3.5 Turbo (Nov 2023)",
-      "org": "OpenAI",
-      "release_date": "2023-06-13",
-      "reasoning": false,
-      "eci": 118.50929443884952,
-      "price_input": 0.5,
-      "price_output": 1.5,
-      "price_blended": 0.75,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
       "name": "Mixtral 8x7B",
       "org": "Mistral AI",
       "release_date": "2023-12-11",
@@ -1964,32 +1925,6 @@
       "price_input": 0.045,
       "price_output": 0.145,
       "price_blended": 0.07,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
-      "name": "GPT-3.5 Turbo (Jan 2024)",
-      "org": "OpenAI",
-      "release_date": "2023-06-13",
-      "reasoning": false,
-      "eci": 115.64884758113604,
-      "price_input": 0.5,
-      "price_output": 1.5,
-      "price_blended": 0.75,
-      "on_frontier_blended": false,
-      "on_frontier_input": false,
-      "on_frontier_output": false
-    },
-    {
-      "name": "GPT-3.5 Turbo (Jun 2023)",
-      "org": "OpenAI",
-      "release_date": "2023-06-13",
-      "reasoning": false,
-      "eci": 113.1511261708057,
-      "price_input": 0.5,
-      "price_output": 1.5,
-      "price_blended": 0.75,
       "on_frontier_blended": false,
       "on_frontier_input": false,
       "on_frontier_output": false
